@@ -77,7 +77,7 @@ public class MapsActivity extends FragmentActivity implements LocationListener, 
         Location location = locationManager.getLastKnownLocation(provider);
 
         if (location != null) {
-            // Getting latitude of the current location
+            // Getting latitude of the current locat
             double latitude = location.getLatitude();
 
             // Getting longitude of the current location
