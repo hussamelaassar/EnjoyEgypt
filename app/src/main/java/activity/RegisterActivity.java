@@ -35,6 +35,8 @@ public class RegisterActivity extends Activity {
     private EditText inputFullName;
     private EditText inputEmail;
     private EditText inputPassword;
+    private EditText inputAge;
+    private EditText inputCountry;
     private ProgressDialog pDialog;
     private SessionManager session;
     private SQLiteHandler db;
@@ -47,6 +49,8 @@ public class RegisterActivity extends Activity {
         inputFullName = (EditText) findViewById(R.id.name);
         inputEmail = (EditText) findViewById(R.id.email);
         inputPassword = (EditText) findViewById(R.id.password);
+        inputAge = (EditText) findViewById(R.id.age);
+        inputCountry = (EditText) findViewById(R.id.country);
         btnRegister = (Button) findViewById(R.id.btnRegister);
         btnLinkToLogin = (Button) findViewById(R.id.btnLinkToLoginScreen);
 
